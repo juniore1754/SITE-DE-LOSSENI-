@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mes Textes – Éditeur Personnel de losseni_</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <header>
+        <h1>📝 Mes Textes</h1>
+        <span id="date"></span>
+    </header>
+
+    <textarea id="texte" placeholder="Écris ton texte ici..."></textarea>
+
+    <div class="actions">
+        <button class="save" onclick="enregistrer()">💾 Enregistrer</button>
+        <button class="load" onclick="charger()">📂 Charger</button>
+        <button class="delete" onclick="effacer()">🗑 Effacer</button>
+    </div>
+
+    <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
